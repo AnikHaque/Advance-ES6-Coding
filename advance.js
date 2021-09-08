@@ -9,8 +9,8 @@ b = 100 //This is valid as I have declared it with let.
 //Moral: When we declare a variable with a const then I can't update it, But I can update it when I declare a variable with let.
 
 //2.a: Use Variable in template string:
-const university = 'Khulna University';
-const name = 'Abdullah Al Akash'
+const university = 'DIU';
+const name = 'Ekramul Haque'
 const student = `Hello this is ${name} read in ${university}.`;
 console.log(student);
 
@@ -82,7 +82,7 @@ console.log(mobilePriceWith5K);
 
 // Create one object and destructuring single element:
 const me = {
-        name: 'Abdullah Al Akash',
+        name: 'Ekramul Haque',
         occupation: 'Student',
         age: 5,
         hobby: 'programming'
